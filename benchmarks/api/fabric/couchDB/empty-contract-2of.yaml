@@ -5,7 +5,7 @@ test:
     a Fabric-SDK-Node Gateway. Each test round flexes the `emptyContract` method. Rounds run for evaluate and submit Gateway routes.
   clients:
     type: local
-    number: 50
+    number: 75
   rounds:
   - label: empty-contract-evaluate
     description: Test an evaluateTransaction() Gateway method against the NodeJS `fixed-asset` Smart Contract method named `emptyContract`, which immediately returns a null response. This represents the fastest possible round trip time for an evaluateTransaction() method that does not touch the world state or perform any action.
