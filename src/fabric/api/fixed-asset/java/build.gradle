@@ -14,10 +14,10 @@ repositories {
     mavenLocal()
     mavenCentral()
     maven {
-        url 'http://172.19.0.1:8000'
+        url 'http://172.20.0.1:8000'
     }
     maven {
-        url 'https://jitpack.io'
+        url 'https://www.jitpack.io'
     }
     maven {
         url "https://nexus.hyperledger.org/content/repositories/snapshots/"
